@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Loan</fullName>
+        <ccEmails>nandan22723@gmail.com</ccEmails>
+        <description>Amount request is mare than limit</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>insightssecurity@00d5g00000llbknead.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>integration@00d5g00000llbknead.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>nandan22723@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SupportEscalatedCaseNotification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Buy</fullName>
+        <description>Approval to purchase car</description>
+        <field>Description</field>
+        <name>Buy</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Not_Approved</fullName>
+        <description>Rejection for some valid reasons!!!</description>
+        <field>Description</field>
+        <name>Not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

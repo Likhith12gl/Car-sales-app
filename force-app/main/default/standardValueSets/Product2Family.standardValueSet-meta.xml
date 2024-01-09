@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Cars</fullName>
+        <default>false</default>
+        <label>New Cars</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Used Cars</fullName>
+        <default>false</default>
+        <label>Used Cars</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_point__c</fullName>
+    <description>Choose your budget!!!</description>
+    <externalId>false</externalId>
+    <label>Price point</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Under 5 lakhs</fullName>
+                <default>false</default>
+                <label>Under 5 lakhs</label>
+            </value>
+            <value>
+                <fullName>Under 10 lakhs</fullName>
+                <default>false</default>
+                <label>Under 10 lakhs</label>
+            </value>
+            <value>
+                <fullName>Under 15 lakhs</fullName>
+                <default>false</default>
+                <label>Under 15 lakhs</label>
+            </value>
+            <value>
+                <fullName>Under 20 lakhs</fullName>
+                <default>false</default>
+                <label>Under 20 lakhs</label>
+            </value>
+            <value>
+                <fullName>Under 30 lakhs</fullName>
+                <default>false</default>
+                <label>Under 30 lakhs</label>
+            </value>
+            <value>
+                <fullName>30-50 lakhs</fullName>
+                <default>false</default>
+                <label>30-50 lakhs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

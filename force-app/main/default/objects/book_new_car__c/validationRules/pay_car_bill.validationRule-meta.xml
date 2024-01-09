@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pay_car_bill</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISPICKVAL(car_name__c, &apos;Mahindra Thar&apos;) &amp;&amp;
+car_price__c &lt;1098000) || (ISPICKVAL(car_name__c, &apos;Tata Nexon&apos;) &amp;&amp;
+car_price__c &lt;810000) || (ISPICKVAL(car_name__c, &apos;Maruti Swift&apos;) &amp;&amp;
+car_price__c &lt;599000) || (ISPICKVAL(car_name__c, &apos;Tata Punch&apos;) &amp;&amp;
+car_price__c &lt;600000)</errorConditionFormula>
+    <errorDisplayField>car_price__c</errorDisplayField>
+    <errorMessage>pay 1098000 for Mahindra Thar ,pay 810000 for Tata Nexon,pay 599000 for Maruti Swift ,pay 600000 for Tata Punch</errorMessage>
+</ValidationRule>
